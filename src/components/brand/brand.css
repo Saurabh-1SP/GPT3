@@ -1,0 +1,25 @@
+.gpt__brand{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gpt__brand div{
+    margin:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
+    min-width: 120px;
+    
+}
+
+@media screen and (max-width:550px) {
+    .gpt__brand div{
+        max-width: 60px;
+        min-width: 80px
+    }
+    .gpt__brand{
+        padding-bottom: 0;
+    }
+}
